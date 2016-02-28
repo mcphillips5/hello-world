@@ -5,7 +5,7 @@ h = [0;0;0;0;0;0]; %%initializes our history matrix
 %%of our original endpoints is a zero.
 if f(a) == 0; 
     r = a; %%our approximation would be exactly that value. we'd be done!
-    h = [a;0;0;0;b;0];
+    h = [a;0;0;0;b;0];%% making a change
 return
 end
 if f(b) == 0;
